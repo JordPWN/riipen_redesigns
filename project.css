@@ -1,0 +1,162 @@
+#bg_container { 
+	display:inline-block;
+	/*float:left;*/
+	position:relative;
+	width: 100%;
+	height: 395px;
+	background-image: url('http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+body {
+	margin: 0;
+	padding-top:40px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: normal;
+	font-size:30px;
+}
+h3 {
+	font-family: "Raleway", sans-serif;
+	font-size:18px;
+}
+.img-container {
+    position: absolute;
+    top: 50%;
+    height: 0;
+    margin-top: -5em;
+    left: 0;
+    right: 0;
+
+    text-align:center;
+}
+.overlay {
+	color:#fff;
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.icon_pad {
+	padding:10px;
+}
+.project_container {
+	max-width:800px;
+	background-color: rgba(0, 0, 0, .5);
+	padding:.005%;
+	margin-top:2%;
+	text-align: center;
+	color:#fff;
+	line-height:50%;
+	width: 50%;
+	z-index: 1;
+}
+
+.img-container:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+#tagline {
+	display:block;
+	text-align:center;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#moreinfo {
+	text-align:center;
+	background-color:#224966; 
+	padding:7px; 
+	color: #fff;
+}
+.white_font {
+	color: #fff;
+}
+.center_font {
+	text-align: center;
+}
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.expand_header {
+	float: left;
+	height: auto;
+	width: 100%;
+	height: auto;
+}
+.more_info {
+    display:inline;
+    text-align:center;
+    height:auto;
+    overflow: hidden;
+}
+
+.hidden{
+	display:none;
+}
+.body_container {
+	float:left;
+	text-align:center;
+	width:80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	position:relative;
+	display:inline-block;
+}
+#incentives {
+	/*padding: 1em;*/
+	text-align: center;
+	background-color:#f68833; 
+	color: #fff; 
+	float:left; 
+	width: 100%; 
+}
+.incentives {
+	display: inline-block;
+	width:20%;
+}
+.circle {
+	 background-color:#224966; 
+	 text-align: center;
+	 display:inline-block;
+	 border-radius:50%; 
+	 width:7em;
+	 height:7em;
+	 vertical-align: middle;
+}
+#share {
+	float:left;
+	text-align: center;
+	width:100%;
+	color: #fff;
+	background-color:#224966;
+}
+/*
+Orange: #f68833
+Blue: #224966
+*/
